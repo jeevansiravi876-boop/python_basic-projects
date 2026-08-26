@@ -49,8 +49,6 @@ while True:
 
     player1, player2 = pick_two_players(football_cricket_data)
 
-   
-
     print("Compare A :")
     show_player(player1)
     print("vs")

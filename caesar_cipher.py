@@ -18,13 +18,6 @@ if direction =="encode":
 
     encrypt(orignal_text = text, shifted_text = shift)
 
-    # def decrypt(chipher_text , shifted_text):
-    #     new_chipher = chipher_text
-    #     for letter in chipher_text:
-    #         new_shifted = chipher_text.index(letter) - shifted_text
-    #         new_chipher += alphabets[new_shifted]
-    #     print(f"ur decoded result : {chipher_text}")
-    # decrypt(chipher_text=text,shifted_text=shift)
 else:   
     def decrypt(orignal_text , shifted_text):
         chipher_text = ""

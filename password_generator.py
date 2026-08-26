@@ -31,7 +31,6 @@ if choice == "e":
 else:
 # hard way {suffle of everything}
 
-
     password_list = []
 
     for char in range (1,nr_letters+1):
@@ -49,6 +48,7 @@ else:
     print(password_list)
 
 #converting list to string again to get desire result till now we have done work in backend now frontend
+  
     password =""
     for char in password_list:
         password += char
